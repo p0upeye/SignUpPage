@@ -1,61 +1,3 @@
-/*body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 20px;
-}
-
-.form-container {
-	display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.greeting-section {
-    width: 40%;
-    padding: 20px;
-	display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 100%;
-    margin-top: 160px;
-}
-
-.greeting-section h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.greeting-section p {
-    font-size: 18px;
-}
-
-.registration-form {
-    width: 55%;
-    padding: 20px;
-}
-
-.input-row {
-    margin-bottom: 15px;
-}
-
-.wide-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-input, select, textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -162,6 +104,17 @@ textarea {
     background: #9cb6ff;
 }
 
+.checkbox-container {
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-container label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
 .toggle-box {
 	position: absolute;
 	width: 100%;
@@ -183,7 +136,6 @@ textarea {
 	position: absolute;
 	width: 50%;
 	height: 100%;
-	/*background: seagreen;*/
 	color: #fff;
 	display: flex;
 	flex-direction: column;
