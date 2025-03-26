@@ -29,13 +29,12 @@
 				
 				<div class="age-group-container">
 					<div class="input-box">
-						<label class="wide-label" for="age">Age</label>
-						<input type="number" id="age" name="age" min="1" max="100">
+						<input type="number" id="age" name="age" min="1" max="100" placeholder="Enter your age">
 					</div>
 					
 					<div class="input-box">
-						<label class="wide-label" for="group">Group</label>
 						<select id="group" name="group">
+							<option value="" disabled selected>Select a group</option>
 							<option value="КНД-11">КНД-11</option>
 							<option value="КНД-12">КНД-12</option>
 							<option value="КНД-13">КНД-13</option>
@@ -57,7 +56,12 @@
 					<label class="wide-label" for="bio">Biography</label>
 					<textarea id="bio" name="bio" rows="8" cols="55" placeholder="Start typing.."></textarea>
 				</div>
-
+				
+				<div class="checkbox-container">
+					<input type="checkbox" id="agreement" required>
+					<label for="agreement">I agree to the processing of my data</label>
+				</div>
+				
 				<button type="submit" onclick="handleClick(event)" class="btn">Send</button>
 			</form>
 		</div>
